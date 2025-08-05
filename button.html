@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Button with Multiple Links</title>
+  <style>
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 200px;
+      box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #f1f1f1;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    .dropdown button {
+      padding: 10px 20px;
+      background-color: #3e8e41;
+      /* background-color: #4CAF50; */
+      color: white;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    .dropdown button:hover {
+      background-color:rebeccapurple;
+    }
+    .symbol{
+      height: 20px;
+      width: 25px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="dropdown">
+  <button>Useful Links</button>
+  <div class="dropdown-content">
+    <a href="https://youtube.com/@codingjourney-e1o?si=Yvy2m7D5EcAyt-sr"><span><img src="photos/logo1.webp" class="symbol"></span> Youtube Playlists</a>
+    <a href="https://drive.google.com/drive/u/0/my-drive"><span><img src="photos/logo3.jpg" class="symbol"></span> PYQs and Notes</a>
+    <a href="https://www.geeksforgeeks.org/blogs/geeksforgeeks-practice-best-online-coding-platform/"><span><img src="photos/logo2.png" class="symbol"></span> GeeksforGeeks</a>
+  </div>
+</div>
+
+</body>
+</html> 
