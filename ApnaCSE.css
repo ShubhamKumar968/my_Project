@@ -168,17 +168,17 @@ span{
     animation: slider 44s infinite linear;
 } 
 @keyframes slider{
-     0%{ background-image: url("photos/image44.jpeg");}
-    11%{ background-image: url("photos/image54.jpg");}
-    22%{ background-image: url("photos/image45.jpg");}
-    33%{ background-image: url("photos/image46.jpg");}
-    44%{ background-image: url("photos/image47.jpg");}
-    55%{ background-image: url("photos/image48.webp");}
-    63%{ background-image: url("photos/image49.jpg");}
-    71%{ background-image: url("photos/image50.webp");}
-    82%{ background-image: url("photos/image52.jpg");}
-    92%{ background-image: url("photos/image51.jpg");}
-    100%{ background-image: url("photos/image55.jpg");} 
+     0%{ background-image: url("image44.jpeg");}
+    11%{ background-image: url("image54.jpg");}
+    22%{ background-image: url("image45.jpg");}
+    33%{ background-image: url("image46.jpg");}
+    44%{ background-image: url("image47.jpg");}
+    55%{ background-image: url("image48.webp");}
+    63%{ background-image: url("image49.jpg");}
+    71%{ background-image: url("image50.webp");}
+    82%{ background-image: url("image52.jpg");}
+    92%{ background-image: url("image51.jpg");}
+    100%{ background-image: url("image55.jpg");} 
     
 }
 .hero-message{
@@ -295,4 +295,5 @@ ul a{
       height: 75px;
       width: 75px;
       margin-left: 4%;
+
 }
